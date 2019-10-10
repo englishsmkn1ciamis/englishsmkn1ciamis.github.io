@@ -407,16 +407,16 @@ overflow-x:hidden;
   /* max-width: 400px; */
   /* margin-left: auto; */
   visibility: hidden;
-  width: 0%;
-  height: 0%;
+  /* width: 0%;
+  height: 0%; */
   /* margin-right: auto; */
 }
 .img2{
   /* margin-top: -500px; */
-  border-radius: 15px;
+  /* border-radius: 15px; */
   /* margin-left: 60px; */
-  max-width: 400px;
-  position: absolute;
+  /* max-width: 400px; */
+  /* position: absolute; */
   visibility: hidden;
   
   /* margin: auto; */
@@ -427,10 +427,10 @@ overflow-x:hidden;
 }
 .img3{
   /* margin-top: -500px; */
-  border-radius: 15px;
+  /* border-radius: 15px; */
   visibility: hidden;
   /* margin-left: 60px; */
-  max-width: 0px;
+  /* max-width: 0px; */
   /* visibility: hidden; */
 }
 .textright3{
