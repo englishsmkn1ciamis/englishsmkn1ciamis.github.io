@@ -330,8 +330,7 @@ body{
 overflow-x:hidden;
 }
   .contain{
-    margin-right: 20px;
-    margin-bottom: 40px;
+    
     
   }
   .navbar{
@@ -412,6 +411,7 @@ overflow-x:hidden;
   height: 0%; */
   /* margin-right: auto; */
   height: 0px;
+  display: none;
   width: 0px;
 }
 .img2{
@@ -421,8 +421,9 @@ overflow-x:hidden;
   /* max-width: 400px; */
   /* position: absolute; */
   visibility: hidden;
-  height: 0px;
-  width: 0px;
+  height: 0%;
+  width: 0%;
+  display: none;
   /* margin: auto; */
   /* visibility: hidden; */
 }
@@ -435,6 +436,7 @@ overflow-x:hidden;
   visibility: hidden;
   height: 0px;
   width: 0px;
+  display: none;
   /* margin-left: 60px; */
   /* max-width: 0px; */
   /* visibility: hidden; */
@@ -453,7 +455,6 @@ overflow-x:hidden;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 20px;
-  margin-top: 40px;
   text-align: center;
 }
 .culture{
