@@ -1,9 +1,8 @@
 html,
-body {
-  width: 100%;
-  overflow-x: hidden;
+body{
+max-width: 100%;
+overflow-x:hidden;
 }
-
 /* Nav */
 .navbar {
     position: relative;
@@ -325,15 +324,15 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
   
-  html,body {
+  html,
+body{
   width: 100%;
-  overflow-x: hidden;
+overflow-x:hidden;
 }
   .contain{
     margin-right: 20px;
     margin-bottom: 40px;
-    display: inline-block;
-    text-align: center;
+    
   }
   .navbar{
     visibility: hidden;
@@ -359,7 +358,7 @@ a:hover {
   }
 
   .jumbotron .display-4 {
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 90px;
     font-weight: 400;
     margin-top: 150px;
@@ -406,11 +405,11 @@ a:hover {
   border-radius: 15px;
   /* margin-left: 60px; */
   /* max-width: 400px; */
-  margin-left: auto;
+  /* margin-left: auto; */
   visibility: hidden;
   width: 0%;
   height: 0%;
-  margin-right: auto;
+  /* margin-right: auto; */
 }
 .img2{
   /* margin-top: -500px; */
@@ -432,8 +431,6 @@ a:hover {
   visibility: hidden;
   /* margin-left: 60px; */
   max-width: 0px;
-  margin-left: 500px;
-  margin-right: auto;
   /* visibility: hidden; */
 }
 .textright3{
@@ -456,9 +453,5 @@ a:hover {
 .culture{
   font-size: 50px;
 }
-html,
-body{
-width:100%;
-overflow-x:hidden;
-}
+
 }
